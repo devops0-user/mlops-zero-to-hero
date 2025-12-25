@@ -38,7 +38,7 @@ DVC allows you to version these dataset changes without storing the actual data 
 
 Without DVC -> Your CSV sits in your repo → Git becomes slow & heavy.
 
-With DVC -> Git stores only a small metadata file:
+With DVC -> Git stores only a small metadata file i.e data-file.dvc and also .dvc/config file:
 
 - wine_data_sample.csv.dvc
 - Actual data is stored in: `S3 bucket` or any external storage
